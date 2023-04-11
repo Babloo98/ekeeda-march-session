@@ -1,0 +1,33 @@
+Repository : 
+
+
+Git basic commands : 
+1. git clone 'url' : 
+Syntax : git clone "url of the code"
+
+2. git add : 
+git add filename
+git add .
+
+3. git commit :
+git commit -m "Informative message"
+Format : "TICKET_NUMBER : Description"
+
+4. git push :
+git push 
+
+5. git pull : 
+git pull 
+
+6. git status
+Information : 
+On which branch you are.
+what is the status of your file.
+
+
+Branch Basic commands : 
+git checkout branchName
+git checkout -b feature/login
+
+
+

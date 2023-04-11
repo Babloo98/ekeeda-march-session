@@ -1,0 +1,13 @@
+HTML Tags/ HTML elements :
+Syntax : 
+<tagName>Content of the document</tagName>
+
+Self closing tag:
+Syntax : 
+<tagName/>
+
+Class / ID : 
+Class is used to define a  
+
+
+Div -> division

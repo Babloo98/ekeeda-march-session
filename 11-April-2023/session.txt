@@ -1,6 +1,5 @@
 Repository : 
 
-
 Git basic commands : 
 1. git clone 'url' : 
 Syntax : git clone "url of the code"
@@ -24,10 +23,6 @@ Information :
 On which branch you are.
 what is the status of your file.
 
-
 Branch Basic commands : 
 git checkout branchName
 git checkout -b feature/login
-
-
-

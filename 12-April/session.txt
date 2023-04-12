@@ -1,1 +1,6 @@
-Today is Git session
+Form elemets : 
+Input
+Select
+Radio button
+checkbox
+Textarea

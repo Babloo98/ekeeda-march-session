@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Table</title>
+        <style>
+            table{
+                border: 1px solid #000000;
+            }
+            td{
+                border: 1px solid #000;
+                padding: 10px 12px;
+            }
+
+            thead{
+                background-color: red;
+            }
+            tbody{
+                background-color: rgb(216, 214, 88);
+            }
+            tfoot{
+                background-color: rgb(153, 246, 144);
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Basic Info</caption>
+          <thead>
+            <!-- TR: Table Row -->
+            <tr>
+                <th>Name</th>
+                <th>Degree</th>
+                <th>ID</th>
+                <th>College</th>
+                <th>Marks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>Babloo mishra</td>
+                <td>B.tech</td>
+                <td>3240</td>
+                <td>Noida institue of engineering and technology</td>
+                <td>1200</td>
+            </tr>
+            <tr>
+                <td>Mukul</td>
+                <td>B.tech</td>
+                <td>3240</td>
+                <td>Noida institue of engineering and technology</td>
+                <td>1300</td>
+            </tr>
+            <tr>
+                <td>Harshit</td>
+                <td>B.tech</td>
+                <td>3240</td>
+                <td>Noida institue of engineering and technology</td>
+                <td>1100</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+                <td colspan="4">
+                    Total
+                </td>
+                <td>
+                    3600
+                </td>
+            </tr>
+          </tfoot>
+        </table>
+    </body>
+</html>

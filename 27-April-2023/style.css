@@ -1,0 +1,86 @@
+/* Flexbox : 
+some propertties are of parent and some are of child */
+
+
+.container{
+    background-color: aqua;
+    width: 900px;
+    padding: 22px;
+    margin: 20px;
+    border-radius: 8px;
+
+    /* default : collected all child divs inline */
+    display: flex;
+    
+    /* flex-direction: row; */
+    /* flex-direction: 
+    Row : default 
+    row-reverse
+    column
+    column-reverse */
+    
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap : 
+    wrap
+    nowrap : default
+    wrap-reverse */
+
+    /* short hand notation for flexdirection and wrap*/
+    /* flex-flow: row wrap-reverse; */
+
+    /* justify-content: space-around; */
+    /* justify-content: center ; */
+    /* flex-start : default
+    flex-end
+    space-between
+    space-around
+    space-evenly
+    center
+    basesline in case of align-items
+     */
+
+     /* align-items: baseline; same as justify-content */
+
+   /* gap
+   row-gap: ;
+   column-gap */
+    /* it is give in px  */
+}
+
+.child{
+    background-color: antiquewhite;
+    /* height: 150px; */
+    width: 150px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    margin-right: 10px;
+    order: 5;
+}
+
+.navbar{
+    display: flex;
+    background-color: red;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.left_navbar, .right_navbar{
+    display: flex;
+    font-size: 20px;
+    color: #fff;
+
+    gap: 10px;
+}
+
+/* Flex child properties :  */
+
+/* Order : arrange the child in the order we assign them */
+/* it is basically give in number  */
+/* flex-grow :  it gives the child ability to grow according to the size available */
+/* It cannot be negative */
+/* flex-shrink : ability to child to shrink if needed */
+/* flex-basis :  */
+/* 0 : it will work as fit content in css */
+/* auto : it will take the default width */
+/* align-self */ 
+/* attributes same as align item and justify content */

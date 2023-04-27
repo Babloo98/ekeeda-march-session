@@ -1,0 +1,337 @@
+.primary_navbar{
+    background-color: #ff385c;
+    /* height: 100vh;
+    background-image:  url("https://a0.muscache.com/im/pictures/448bee34-7416-4262-a02f-b39e29d7ce4f.jpg?im_w=1200");
+    background-repeat: no-repeat;
+    background-attachment: scroll;   */
+    /* background: #ff385c url("https://a0.muscache.com/im/pictures/448bee34-7416-4262-a02f-b39e29d7ce4f.jpg?im_w=1200") no-repeat; */
+}
+
+.dashed{
+    border: 1px dashed #ff385c;
+    padding: 15px;
+    margin: 15px;
+    font-size: 22px;
+    /* Text Align */
+    /* text-align: center | left | right; */
+}
+
+.solid{
+    border: 2px solid #ff385c;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+    width: 11%;
+    height: 60px;
+}
+
+.double{
+    border: 1px double #ff385c;
+    /* Cross confirm this style attribute */
+    /* border-style: double; */
+    padding: 15px;
+    margin: 15px;
+}
+
+.multiBorder{
+    border: 1px double #ff385c;
+    border-style: dotted dashed solid double;
+    /* Top Right Bottom and left */
+    padding: 15px;
+    margin: 15px;
+}
+
+.circle{
+    height: 40px;
+    width: 40px;
+    background-color: #ff385c;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.firstName{
+    background-color: #ff385c;
+    padding: 10px 20px;
+    /* 10px : top and bottom;
+    20px : left and right */
+    border-radius: 4px;
+    margin-left: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.lastName{
+    margin-left: 50px;
+    background-color: #422329;
+}
+
+.overline{
+    text-decoration-line: overline;
+}
+
+.line{
+    text-decoration-line: line-through;
+}
+
+.underline{
+    text-decoration-line: underline;
+}
+
+.overline_underline{
+    margin-top: 5px;
+    text-decoration-line: overline underline;
+    text-decoration-color: red ;
+    text-decoration-style: dashed;
+    /* short hand notation for text-decoration */
+    /* text-decoration: underline red dashed 5px; */
+}
+
+a{
+    /* text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize; */
+    /* Text shadow : horizontal shadow, vertical shadow, blur, color; */
+    /* text-shadow: 2px 2px 3px #ff0000; */
+}
+
+
+/* Not for class reference  */
+nav ul{
+    /* display: flex; */
+    /* gap: 10px;
+    padding: 15px; */
+}
+/* Shotcut for css
+    CTRL + / */
+
+/* 20-April-2023 */
+
+/* 1. Fonts */
+
+html{
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 30px; */
+}
+
+.font_styling{
+    /* font-family: "Times New Roman", Times, serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family:"Lucida Console", "Courir New", monospace; */
+    /* font-family: 'Rubik Pixels', cursive; */
+    /* font-weight: 400; */
+    /* font-size: 2rem; */
+    /* 1px = 0.0264cm */
+    /* 1em = 16px Default */ 
+}
+
+
+/* @media only screen and (max-width: 600px) {
+    body{
+        background-color: antiquewhite;
+    }
+    html{
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-size: 15px;
+    }
+} */
+
+.parent_container{
+    font-size: 8px;
+    /* height: 100vh; */
+    background-color: #ff385c;
+}
+
+.font_styling_new{
+    /* font-size: 20vw; */
+}
+
+/* em : This will pick the nearest parent size  */
+/* rem : This will pick the font-size of the root tag html */
+
+
+/* VH : Viewport Height
+VW : Viewport width */
+
+/* Viewport = Browser window size  */
+/* 1vw = 1% of viewport width
+1VH =1% of viewport height */
+
+.container{
+    display: flex;
+}
+
+.first, .second{
+    height: 30px;
+    width: 50vw;
+    background-color: #ffffff;
+}
+
+.second{
+    background-color: aqua;
+}
+
+/* Block-level elements:*/
+/* A block level element is a tag that takes full width of the window */
+.block_level_element{
+    background-color: aliceblue;
+}
+
+.block_level_element li{
+    font-size: 18px;
+}
+
+.block_level_element p{
+    font-size: 26px;
+}
+
+/* ctrl + D is used to select multiple same values and edit at same time */
+
+/* Position :  */
+/* 1. static : This is the default position
+2. relative 
+3. absolute
+4. fixed
+5. sticky */
+
+/* Relative and absolute styling */
+
+.relative{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    margin-left: 20px;
+}
+
+.absolute{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(220, 132, 132);
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    /* transform: translate(50%, 50%); */
+}
+/* 
+.fixed{
+    right: 0px;
+    top: 20px;
+    width: 50px;
+    background-color: red;
+} */
+
+/* Parent will always be realtive and child will always be absolute */
+.sticky_container{
+    height: 400px;
+    width: 300px;
+    background-color: yellowgreen;
+    overflow: auto;
+}
+
+.sticky_header{
+    background-color: #ff385c;
+    position: sticky;
+    top: 0;
+}
+
+.body_sticky > p{
+    font-size: 18px;
+}
+
+/* Overflow property : 
+1. Scroll;
+2. hidden;
+3. Auto
+4. visible : Default  */
+
+/* Display : 
+Block 
+inline
+inline-block */
+
+.body_sticky + div{
+    background-color: green;
+    height: 400px;
+    width: 400px;
+}
+
+.my_div h1~p{
+    background-color: #ff385c;
+    width: 50px;
+    height: 50px;
+}
+
+/* Combinators : 
+1. Space: Descendent selector 
+2. Child selector (>) 
+3. Adjacent sibling (+)
+4. sibling selector (~) */
+
+/* Pseudo-classes : 
+Pseudo --> false
+they are not actually classes but act as a class 
+they are the state of any tag */
+
+a:visited{
+ /* purple */
+}
+
+a:active {
+ /* red */
+}
+
+a:hover{
+/* blue */
+}
+
+:first-child
+:first-of-type
+
+.hover_state:hover{
+    background-color: green;
+    padding: 10px;
+}
+
+.link {
+    font-size: 28px;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

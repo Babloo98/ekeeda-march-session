@@ -1,0 +1,11 @@
+
+Skipped topic : 
+/* z-index :  */
+/* 
+.fixed{
+    right: 0px;
+    top: 20px;
+    width: 50px;
+    background-color: red;
+} */
+border : double not working

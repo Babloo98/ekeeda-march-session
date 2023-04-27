@@ -1,0 +1,39 @@
+Type of selector :
+1. class selector : 
+
+Syntax : 
+HTML : 
+<div class = "primary_Section">
+    content
+</div>
+
+Css : 
+.className{
+    styling attributes
+}
+
+2. Id selector : 
+
+
+Syntax : 
+HTML : 
+<div id = "primary_section">
+    Content of Div
+</div>
+
+Css : 
+#idName {
+    Styling attributes
+}
+
+Margins and padding : 
+Margin : 
+Margin is the space between two tags.
+
+Padding : 
+This is used for space inside the html tag.
+
+Box Model : 
+    
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        .d_flex{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        #counter{
+            font-size: 10em;
+            font-weight: 900;
+            background-color: #ff385c;
+            /* padding: 12px; */
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            color: #ffffff;
+            border-radius: 8px;
+            text-align: center;
+        }
+    </style>
+    <script>
+      let time = 10;
+      setInterval(() => {
+        if (time > 0) {
+          time = time - 1;
+          console.log(time);
+          document.getElementById("counter").innerHTML = time;
+        }
+      }, 1000);
+    </script>
+  </head>
+  <body>
+    <div class="d_flex">
+        <p id="counter"></p>
+    </div>
+  </body>
+</html>
+
+<script>
+  // All js
+</script>

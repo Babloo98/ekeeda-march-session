@@ -1,0 +1,187 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.primary_navigation_bar{
+    border-bottom: 1px solid #717171 ;
+}
+
+.primary_navigation_bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+    padding: 18px;
+    background-color: #ff385c;
+}
+
+ul li{
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+ul li i{
+    margin-right: 8px;
+}
+
+ul li:hover{
+    transform: scale(1.1);
+}
+
+.banner_container{
+    display: flex;
+    height: 90vh;
+}
+
+.profile_details_container{
+    width: 70%;
+    position: relative;
+}
+
+.primary_text, .profile_extempo{
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #ff385c;
+}
+
+.profile_name{
+    font-size: 5em;
+    font-weight: 900;
+    color: #8892b0;
+    margin-bottom: 20px;
+
+}
+
+.profile_detail{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #8892b0;
+}
+
+.profile_details{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    padding: 4em;
+    background-color: #ff385c;
+}
+
+.skill_matrix{
+    width: 15%;
+    text-align: center;
+}
+
+.skill_matrix i{
+    font-size: 4em;
+    color: #ffffff;
+}
+
+.skill_matrix:hover{
+    transform: scale(1.2);
+    cursor: pointer !important;
+}
+
+.footer_container{
+     border-top: 1px dashed #717171 ;
+    background-color: #0a192f;
+    padding: 4em;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer button{
+    margin: 0 auto;
+    margin: 0 auto;
+    padding: 15px 35px;
+    border-radius: 8px;
+    outline: none;
+    color: #fff;
+    background: #ff385c;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 12px;
+}
+
+.footer .social_links .link{
+    margin: 20px 0;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 20px;
+}
+
+.link i{
+    font-size: 20px;
+    color: #ff385c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.copywrite{
+    color: #ffffff;
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner_container{
+        display: unset;
+        height: unset;
+    }
+    .profile_details{
+        position: unset;
+        width: 100%;
+        padding: 2em;
+    }
+    .primary_text, .profile_extempo{
+        font-size: 1.5em;
+    }
+    .profile_name{
+        font-size: 3em;
+    }
+    .profile_detail{
+        font-size: 1.2em;
+    }
+    .profile_photo{
+        display: none;
+    }
+    .skills{
+        padding: 4em 2em;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+    .skill_matrix{
+        margin-bottom: 15px;
+    }
+    .skill_matrix i{
+        font-size: 2em;
+    }
+    .footer_container{
+        padding: 2em 2em;
+    }
+    .footer .social_links .link{
+        height: 30px;
+        width: 30px;
+    }
+    .link i{
+        font-size: 15px;
+    }
+  }
